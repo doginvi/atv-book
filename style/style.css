@@ -64,6 +64,12 @@ table {
 =======================================================
 */
 
+body {
+	background-color: #E5E5E5;
+}
+
+
+
 /*
 ==========================================================
                 HEADER  
@@ -131,3 +137,75 @@ main section.book button{
 main section.book a{
 	color: black;
 }
+
+/*
+==========================================================
+                What’s the Point?	  
+==========================================================
+*/
+
+section.point h2{
+	font-size: 2.0rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+
+section.point ul li{
+	display: flex;
+	margin: 3vw 8vw 4.5vw 8vw;
+
+}
+
+section.point ul li p{
+	padding: 3vw 5vw 0 5vw;
+}
+
+/*
+==========================================================
+                Experiments 
+==========================================================
+*/
+
+section.experiments h2 {
+	text-align: center;
+	font-size: 2.0rem;
+	margin: 0 0 3.4vw 0;
+}
+
+
+
+
+
+section.experiments ul{
+	display: flex;
+	font-size: 1.3rem;
+}
+
+section.experiments ul li{
+	margin: 0 10px 0 10px;
+}
+
+section.experiments ul li img{
+	margin: 0 10px 0 0;
+}
+
+
+section.experiments ul li p span.negrito{
+	font-weight: bold;
+}
+
+section.experiments ul li p.p2{
+	margin: 1.4vw 0 0 0;
+}
+
+
+footer.1{
+	display: flex;
+}
+
+
+
+
