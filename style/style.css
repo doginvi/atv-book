@@ -65,12 +65,9 @@ table {
 */
 
 body {
-	background-color: #F8F8F8;
+	background-color: white;
 	font-family: 'Arial';
-}
-
-body {
-	margin: 3vw 10vw 10vw 10vw;
+	padding: 3vw 10vw 10vw 10vw;
 }
 
 
@@ -80,6 +77,10 @@ body {
                 HEADER  
 ==========================================================
 */
+
+header {
+	background-color: #F8F8F8;
+}
 
 header nav a {
     text-decoration: none;
@@ -92,7 +93,7 @@ header {
 
 
 header nav p span.danny{
-	text-weight: bold;
+	font-weight: bold;
 }
 
 
@@ -107,6 +108,8 @@ header nav ul {
 header nav ul li a{
 	color: #868686;
     margin: 0 4vw 0 0;
+}body {
+	padding: 3vw 10vw 10vw 10vw;
 }
 
 
@@ -119,7 +122,8 @@ header nav ul li a{
 
 main section.book {
     display: flex;
-	margin: 5vw 0 0 0;
+	margin: 5vw 0 2vw 0;
+	background-color: #F8F8F8;
 }
 
 main section.book h1{
@@ -162,8 +166,6 @@ section.point h2{
 	font-family: Arial, Helvetica, sans-serif ;
 }
 
-
-
 section.point ul li{
 	display: flex;
 	margin: 3vw 8vw 4.5vw 8vw;
@@ -172,6 +174,10 @@ section.point ul li{
 
 section.point ul li p{
 	padding: 3vw 5vw 0 5vw;
+}
+
+section.point ul li.cor{
+	background-color: #F8F8F8;
 }
 
 /*
@@ -213,6 +219,12 @@ section.experiments ul li p span.negrito{
 section.experiments ul li p.p2{
 	margin: 1.4vw 0 0 0;
 }
+
+section.experiments ul li.cor-diferente{
+	background-color: #F8F8F8;
+}
+
+
 
 
 
@@ -260,4 +272,15 @@ section.experiments{
 
 footer p.copy{
 	margin: 15px 0 0 0;
+}
+
+/*
+======================================================
+					FUNDO	
+======================================================
+
+*/
+
+body div.a {
+	background-color: #F8F8F8;
 }
