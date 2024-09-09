@@ -65,7 +65,12 @@ table {
 */
 
 body {
-	background-color: #E5E5E5;
+	background-color: #F8F8F8;
+	font-family: 'Arial';
+}
+
+body {
+	margin: 3vw 10vw 10vw 10vw;
 }
 
 
@@ -81,7 +86,12 @@ header nav a {
 	color: black;
 }
 
-header nav p a span {
+header {
+	font-family: 'Arial';
+}
+
+
+header nav p span.danny{
 	text-weight: bold;
 }
 
@@ -94,7 +104,8 @@ header nav{
 header nav ul {
     display: flex;
 }
-header nav ul li{
+header nav ul li a{
+	color: #868686;
     margin: 0 4vw 0 0;
 }
 
@@ -169,15 +180,17 @@ section.point ul li p{
 ==========================================================
 */
 
+section.experiments{
+	font-family: 'Arial';
+}
+
 section.experiments h2 {
 	text-align: center;
 	font-size: 2.0rem;
 	margin: 0 0 3.4vw 0;
+	font-weight: bold;
+	font-family: 'Arial';
 }
-
-
-
-
 
 section.experiments ul{
 	display: flex;
@@ -202,10 +215,49 @@ section.experiments ul li p.p2{
 }
 
 
-footer.1{
+
+/*
+==================================================
+                     FOOTER
+==================================================
+*/
+
+footer{
+	font-size: 1rem;
+	margin: 50px 0 0 0;
+	font-family: 'Arial';
+}
+
+footer nav{
 	display: flex;
+	justify-content: space-between;
+}
+
+footer nav p a{
+	text-decoration: none;
+	color: black;
 }
 
 
 
+footer nav ul{
+	display: flex;
+}
 
+footer nav ul li{
+	margin: 0 3vw 0 0 ;
+}
+
+footer nav ul li a{
+	color: #868686;
+}
+
+section.experiments{
+	border-bottom: 1px solid #F4F4F4;
+	padding: 2.8vw 0 2.7vw 0;
+}
+
+
+footer p.copy{
+	margin: 15px 0 0 0;
+}
